@@ -45,8 +45,8 @@ public class MainActivity extends AppCompatActivity {
         try {
             Utils.extractAssets(newBase, "plugin1.apk");
 
-            HookHelper.hookLoadedApkInActivityThread(
-                    getFileStreamPath("plugin1.apk"));
+//            HookHelper.hookLoadedApkInActivityThread(
+//                    getFileStreamPath("plugin1.apk"));
 
             HookHelper.hookAMN();
             HookHelper.hookActivityThread(
