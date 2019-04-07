@@ -1,6 +1,9 @@
 # PluginAcitivityDemo
 Hook加载插件中的Activity。
 
+# 一个更好的替代方案
+[PluginActivity_MultiDexDemo](https://github.com/1qu212/PluginActivity_MultiDexDemo)
+
 ## 适用于已知插件名的插件化方案
 ### 基于[HookStartActivityDemo](https://github.com/1qu212/HookStartActivityDemo)的Activity插件化方案
 [HookStartActivityDemo](https://github.com/1qu212/HookStartActivityDemo)是为了启动没有在AndroidManifest中声明的Activity，现适配到API25。分为两个步骤
